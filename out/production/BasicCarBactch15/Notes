@@ -20,3 +20,86 @@ Approach:
 
 branch --> Main
 ------------------------------------------
+
+If a new person intends to work on the feature engine that has just been created and pushed to github
+and your teamLead asks you to merge on github after you're done adding your codes.
+Approach:
+
+1. clone
+2. create a new branch
+3. change the code (add feature)
+4. commit it
+5. push the branch to github
+6. open the pull request
+7. merge the code on github
+
+---------------------once the code is merged on github...... do you need the updated code on
+your computer/local??
+
+Yes! you always want to have the most updated main branch.
+
+1. Switch to main
+2. git fetch --> to check for updates
+3. git pull --> to get the updated....
+
+--------------------------------------------------------------------------------------------------------
+
+Scenario:
+
+Hamid--> hey hamid work on the feature of lights
+
+Zahra --> hey zahra work on the feature color scheme
+
+as hamid is continuing to work
+Hamid:
+1. hamid will switch to main branch and check for updates (git fetch)
+2. if there are any updates he must pull them (git pull)
+3. create a new branch
+4. write code
+5. commit and push (to the github)
+6. pull request
+
+
+As being Zahra:
+
+1. clone
+2. create a new branch
+3. write code
+4. commit and push
+5. open a pull request
+
+-------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
